@@ -61,7 +61,8 @@ class App extends Component {
       
     );
   }else{
-    return <div>Loading....</div>
+    return <div className="loader-box">
+    <div class="lds-dual-ring"></div></div>
   }
   }
 }
